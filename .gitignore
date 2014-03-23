@@ -1,0 +1,14 @@
+# untrack Debug & Release file folders
+# solution location & project location: 3 levels.
+/Debug/
+/Release/
+*/Debug/
+*/Release/
+*/*/Debug/
+*/*/Release/
+
+# untrack some useless files & file folders
+*.sdf
+*.suo
+/ipch/
+*/ipch/
